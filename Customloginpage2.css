@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("architecture-buildings-city-169647.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+}
+
+.login-box h1{
+    font-size: 40px;
+    float: left;
+    border-bottom: 6px solid #4caf50;
+      margin-bottom: 50px;
+      padding: 13px 0;
+}
+.text-box{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid #4caf50;
+}
+.text-box i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.text-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    width: 80%;
+    float: left;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.btn{
+    width: 100%;
+    background: transparent;
+    border:2px solid #4caf50;
+    color: white;
+    padding: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+.btn:hover{
+    background: #4caf50;
+}
+
+@media screen and (max-width:768px){
+    body{
+        height: 100vh;
+    }
+    .login-box{
+        width: 80%;
+        top: 40%;
+    }
+    .login-box h1{
+      margin-left: 2rem;
+    }
+}
+ 
+@media screen and (max-width:1280px){
+   
+    body{
+        height: 100vh;
+    }
+    
+}
